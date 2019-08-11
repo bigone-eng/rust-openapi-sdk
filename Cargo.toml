@@ -1,0 +1,13 @@
+[package]
+name = "bigone"
+version = "0.1.0"
+authors = ["Changhong <yu.chaong@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "0.9.19"
+serde_json = {version = "1.0.40", features = ["raw_value"]}
+serde = { version = "1.0.97", features = ["derive"] }
+jsonwebtoken = "6"
